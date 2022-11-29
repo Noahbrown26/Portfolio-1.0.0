@@ -25,11 +25,10 @@ const Project = ({ title }) => {
       <div className={overlayStyles}>
         <p className="text-2xl font-playfair">{title}</p>
         <p className="mt-7">
-          Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla
-          porttitor accumsan tincidunt.
+          placeholder
         </p>
       </div>
-      <img src={`../assets/${projectTitle}.jpeg`} alt={projectTitle} />
+      <img src={`../assets/${projectTitle}.jpg`} alt={projectTitle} />
     </motion.div>
   );
 };
@@ -78,14 +77,14 @@ const Projects = () => {
           >
             BEAUTIFUL USER INTERFACES
           </div>
-          <Project title="Project 1" />
-          <Project title="Project 2" />
+          <Project title="Project Vinyl 1.0.0" />
+          <Project title="Project Vinyl 2.0.0" />
 
           {/* ROW 2 */}
           
           {/* ROW 3 */}
-          <Project title="Project 3" />
-          <Project title="Project 4" />
+          <Project title="J.A.T.E" />
+          <Project title="Wordsmith" />
           <div
             className="flex justify-center text-center items-center p-10 bg-blue
               max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"

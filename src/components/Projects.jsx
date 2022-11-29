@@ -1,6 +1,11 @@
 import LineGradient from "../utils/LineGradient";
 import { motion } from "framer-motion";
 
+import img from "../assets/project-4.jpeg";
+import img1 from "../assets/project-vinyl-2.0.0.jpeg";
+import img2 from "../assets/project-vinyl-1.0.0.jpeg";
+import img3 from "../assets/project-5.jpeg";
+
 const container = {
   hidden: {},
   visible: {
@@ -15,7 +20,7 @@ const projectVariant = {
   visible: { opacity: 1, scale: 1 },
 };
 
-const Project = ({ title, link, text }) => {
+const Project = ({ title, link, text, image }) => {
   const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
     bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue`;
   const projectTitle = title.split(" ").join("-").toLowerCase();
@@ -30,11 +35,13 @@ const Project = ({ title, link, text }) => {
         </p>
       </div>
       <a href={link}>
-      <img src={`../assets/${projectTitle}.jpg`} alt={projectTitle} />
+      <img src={image} alt={projectTitle} />
       </a>
     </motion.div>
   );
 };
+
+/*`../assets/${projectTitle}.jpg`*/
 
 const Projects = () => {
   return (
@@ -84,11 +91,13 @@ const Projects = () => {
           title="Project Vinyl 1.0.0"
           link="https://goldnboy26.github.io/Project1sounds/"
           text="HTML/CSS JavaScript"
+          image={img}
            />
           <Project 
           title="Project Vinyl 2.0.0" 
           link="https://projectvinyl.herokuapp.com/"
           text="Node.JS/Express MySQL"
+          image={img1}
           />
 
           {/* ROW 2 */}
@@ -98,11 +107,13 @@ const Projects = () => {
           title="J.A.T.E"
           link="https://jate-3.herokuapp.com/"
           text="Progressive Web Application" 
+          image={img2}
           />
           <Project 
           title="Note Taker" 
           link="https://note-taker-express26.herokuapp.com/"
           text="Node.JS Express"
+          image={img3}
           />
           <div
             className="flex justify-center text-center items-center p-10 bg-blue

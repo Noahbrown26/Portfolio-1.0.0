@@ -17,7 +17,7 @@ This application utilizes `React` as well as `Tailwind CSS` and the `framer moti
 ## Usage
 Below is a screenshot of the deployed application.
 
-![](./assets/screenshot.PNG)
+![](./src/assets/screenshot.PNG)
 
 
 You can view the deployed application [here](https://noahbrown26.github.io/Portfolio-1.0.0/)

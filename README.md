@@ -8,9 +8,9 @@ This is the 20th challenge for my Coding bootcamp journey. For this challenge, w
 
 This application utilizes `React` as well as `Tailwind CSS` and the `framer motion` package to handle dynamic div elements.
 
-TODO: Currently I am working on adding a picture of myself to the landing screen. 
-TODO: Working on fixing the project picutres / display in the projects section.
-TODO: Will Add a Resume to my Portfolio once its updated.
+-TODO: Currently I am working on adding a picture of myself to the landing screen. 
+-TODO: Working on fixing the project picutres / display in the projects section.
+-TODO: Will Add a Resume to my Portfolio once its updated.
 
 ## Table of Contents
 * [Description](#description)

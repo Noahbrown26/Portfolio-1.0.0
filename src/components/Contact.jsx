@@ -100,7 +100,9 @@ const Contact = () => {
                 pattern: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
               })}
             />
+            
             <input type="hidden" name="_next" value="https://noahbrown26.github.io/Portfolio-1.0.0/"></input>
+            
             {errors.email && (
               <p className="text-red mt-1">
                 {errors.email.type === "required" && "This field is required."}

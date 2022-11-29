@@ -25,7 +25,7 @@ const MySkills = () => {
           </p>
           <LineGradient width="w-1/3" />
           <p className="mt-10 mb-7">
-            Below are a few of the languages i enjoy and am profficient in.
+            Below are a few of the languages I enjoy and am profficient in.
           </p>
         </motion.div>
         
@@ -97,7 +97,7 @@ const MySkills = () => {
             <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            Node.JS & Express are really enjoyable for me to work with. Creating API routes and creating the backbone of a website is very intriguing to me and i look foward to learning new technologies.
+            I currently enjoy working with Node.JS and Express to develop the server-side of my websites. I look foward to learning new back-end technologies to improve my skillset in this area.
           </p>
         </motion.div>
         {/* IMAGINATIVE */}
@@ -116,13 +116,13 @@ const MySkills = () => {
             <div className="z-10">
               <p className="font-playfair font-semibold text-5xl">03</p>
               <p className="font-playfair font-semibold text-3xl mt-3">
-                HTML/CSS
+                MySQL/Mongo
               </p>
             </div>
             <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            HTML and CSS is where i started and will always hold a place in my heart. 
+            MySQL and MongoDB are what i am familiar with for handling the database layer of my websites. I prefer No-SQL these days but MySQL still has its rightful place in my repository.
           </p>
         </motion.div>
       </div>

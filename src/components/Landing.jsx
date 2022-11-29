@@ -57,7 +57,7 @@ const Landing = ({ setSelectedPage }) => {
           </p>
 
           <p className="mt-10 mb-7 text-sm text-center md:text-start">
-            I am a 24 year old Full-Stack Developer based out of Seattle Washington. I currently have 6 months of coding experience through the UW coding bootcamp. I love working with technologies such as React, Next.JS, and GraphQL
+            I am a 24 year old Full-Stack Developer based out of Seattle Washington with 6 months of coding experience. The UW coding bootcamp taught me tools such as React, Next.JS, and GraphQL which i use to create colorful and modern web applications.
           </p>
         </motion.div>
 

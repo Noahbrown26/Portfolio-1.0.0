@@ -58,7 +58,7 @@ const Projects = () => {
           </div>
         </div>
         <p className="mt-10 mb-10">
-          Take a look at some of my favorite projects I have completed
+        Take a look at some of my favorite projects I have completed
         </p>
       </motion.div>
 

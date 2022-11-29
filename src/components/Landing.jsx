@@ -49,15 +49,15 @@ const Landing = ({ setSelectedPage }) => {
           <p className="text-6xl font-playfair z-10 text-center md:text-start">
             Noah {""}
             <span
-              className="xs:relative xs:text-deep-blue xs:font-semibold z-20 xs:before:content-brush
+              className="xs:relative  xs:font-semibold z-20 xs:before:content-brush
               before:absolute before:-left-[25px] before:-top-[70px] before:z-[-1]"
             >
-              Esper
+              Brown
             </span>
           </p>
 
           <p className="mt-10 mb-7 text-sm text-center md:text-start">
-            I am a 24 year old Full-Stack Developer based out of Seattle Washington. I currently have 6 months of coding experience through the UW coding bootcamp. I currently enjoy working with technologies such as React, Next.JS, and GraphQL
+            I am a 24 year old Full-Stack Developer based out of Seattle Washington. I currently have 6 months of coding experience through the UW coding bootcamp. I love working with technologies such as React, Next.JS, and GraphQL
           </p>
         </motion.div>
 

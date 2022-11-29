@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar";
 import DotGroup from "./components/DotGroup";
 import Landing from "./components/Landing";
 import MySkills from "./components/MySkills";
+import Projects from "./components/Projects";
 import LineGradient from "./utils/LineGradient";
 import useMediaQuery from "./hooks/useMediaQuery";
 import { useState, useEffect } from "react";
@@ -46,6 +47,10 @@ function App() {
 
        <div className="w-5/6 mx-auto md:h-full">
           <MySkills/>
+       </div>
+       <LineGradient/>
+       <div className="w-5/6 mx-auto">
+          <Projects/>
        </div>
     </div>
   );

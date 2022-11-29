@@ -25,7 +25,7 @@ const MySkills = () => {
           </p>
           <LineGradient width="w-1/3" />
           <p className="mt-10 mb-7">
-            Below are some of the languages i am profficient in.
+            Below are a few of the languages i enjoy and am profficient in.
           </p>
         </motion.div>
         
@@ -71,9 +71,7 @@ const MySkills = () => {
             <div className="w-1/2 md:w-3/4 h-32 bg-blue absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            A auctor pharetra hendrerit mattis amet etiam interdum platea. Est
-            morbi porttitor scelerisque fermentum, sagittis non egestas. Amet
-            odio sit sagittis,
+            React has quickly become my favorite front-end framework. It is efficient and modern and allows me to quickly create visually beautiful web pages.
           </p>
         </motion.div>
 
@@ -99,10 +97,7 @@ const MySkills = () => {
             <div className="w-1/2 md:w-3/4 h-32 bg-red absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            Urna, eget pulvinar dolor cursus volutpat dictum odio. Nec ultricies
-            amet in in neque nibh tortor. Libero sed pretium justo nulla blandit
-            nulla amet habitant iaculis. Iaculis in congue vitae sollicitudin
-            faucibus a
+            Node.JS & Express are really enjoyable for me to work with. Creating API routes and creating the backbone of a website is very intriguing to me and i look foward to learning new technologies.
           </p>
         </motion.div>
         {/* IMAGINATIVE */}
@@ -127,10 +122,7 @@ const MySkills = () => {
             <div className="w-1/2 md:w-3/4 h-32 bg-yellow absolute right-0 top-0 z-[-1]" />
           </div>
           <p className="mt-5">
-            Accumsan eu fringilla nisi, eget. Vitae, eget ut id proin arcu in
-            curabitur. Lectus libero, egestas enim aliquam quis felis amet.
-            Sagittis, amet netus fringilla netus lobortis odio sed platea.
-            Bibendum.
+            HTML and CSS is where i started and will always hold a place in my heart. 
           </p>
         </motion.div>
       </div>

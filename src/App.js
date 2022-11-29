@@ -3,6 +3,8 @@ import DotGroup from "./components/DotGroup";
 import Landing from "./components/Landing";
 import MySkills from "./components/MySkills";
 import Projects from "./components/Projects";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 import LineGradient from "./utils/LineGradient";
 import useMediaQuery from "./hooks/useMediaQuery";
 import { useState, useEffect } from "react";
@@ -52,6 +54,11 @@ function App() {
        <div className="w-5/6 mx-auto">
           <Projects/>
        </div>
+       <LineGradient/>
+       <div className="w-5/6 mx-auto">
+          <Contact/>
+       </div>
+       <Footer/>
     </div>
   );
 }

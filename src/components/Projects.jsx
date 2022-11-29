@@ -15,20 +15,23 @@ const projectVariant = {
   visible: { opacity: 1, scale: 1 },
 };
 
-const Project = ({ title }) => {
+const Project = ({ title, link, text }) => {
   const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
     bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue`;
   const projectTitle = title.split(" ").join("-").toLowerCase();
-
   return (
     <motion.div variants={projectVariant} className="relative">
       <div className={overlayStyles}>
+      <a href={link} target="blank">
         <p className="text-2xl font-playfair">{title}</p>
-        <p className="mt-7">
-          placeholder
+        </a>
+        <p className="mt-3">
+          {text}
         </p>
       </div>
+      <a href={link}>
       <img src={`../assets/${projectTitle}.jpg`} alt={projectTitle} />
+      </a>
     </motion.div>
   );
 };
@@ -77,14 +80,30 @@ const Projects = () => {
           >
             BEAUTIFUL USER INTERFACES
           </div>
-          <Project title="Project Vinyl 1.0.0" />
-          <Project title="Project Vinyl 2.0.0" />
+          <Project 
+          title="Project Vinyl 1.0.0"
+          link="https://goldnboy26.github.io/Project1sounds/"
+          text="HTML/CSS JavaScript"
+           />
+          <Project 
+          title="Project Vinyl 2.0.0" 
+          link="https://projectvinyl.herokuapp.com/"
+          text="Node.JS/Express MySQL"
+          />
 
           {/* ROW 2 */}
           
           {/* ROW 3 */}
-          <Project title="J.A.T.E" />
-          <Project title="Wordsmith" />
+          <Project 
+          title="J.A.T.E"
+          link="https://jate-3.herokuapp.com/"
+          text="Progressive Web Application" 
+          />
+          <Project 
+          title="Note Taker" 
+          link="https://note-taker-express26.herokuapp.com/"
+          text="Node.JS Express"
+          />
           <div
             className="flex justify-center text-center items-center p-10 bg-blue
               max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"

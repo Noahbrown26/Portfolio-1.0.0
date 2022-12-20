@@ -88,9 +88,9 @@ const Projects = () => {
             BEAUTIFUL USER INTERFACES
           </div>
           <Project 
-          title="Project Vinyl 1.0.0"
-          link="https://goldnboy26.github.io/Project1sounds/"
-          text="HTML/CSS JavaScript"
+          title="Stride"
+          link="https://stride-1.herokuapp.com/"
+          text="MERN Full-Stack"
           image={img}
            />
           <Project 

@@ -47,7 +47,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
               selectedPage={selectedPage}
               setSelectedPage={setSelectedPage}
             />
-            <a href="https://docs.google.com/document/d/e/2PACX-1vRHJ2eAM0xZje4ORDMtb8h4lTG0cKv4MFWnD03clPPNIpqeTIrpVjuFOXbbG8X3XQ_YQX4jWRijrBqR/pub" target="_blank">
+            <a href="https://docs.google.com/document/d/e/2PACX-1vRHJ2eAM0xZje4ORDMtb8h4lTG0cKv4MFWnD03clPPNIpqeTIrpVjuFOXbbG8X3XQ_YQX4jWRijrBqR/pub" target="_blank" rel="noreferrer">
               Resume
             </a>
             <Link
@@ -92,7 +92,7 @@ const Navbar = ({ isTopOfPage, selectedPage, setSelectedPage }) => {
                 selectedPage={selectedPage}
                 setSelectedPage={setSelectedPage}
               />
-              <a href="https://docs.google.com/document/d/e/2PACX-1vRHJ2eAM0xZje4ORDMtb8h4lTG0cKv4MFWnD03clPPNIpqeTIrpVjuFOXbbG8X3XQ_YQX4jWRijrBqR/pub" target="_blank">
+              <a href="https://docs.google.com/document/d/e/2PACX-1vRHJ2eAM0xZje4ORDMtb8h4lTG0cKv4MFWnD03clPPNIpqeTIrpVjuFOXbbG8X3XQ_YQX4jWRijrBqR/pub" target="_blank" rel="noreferrer">
               Resume
             </a>
               <Link

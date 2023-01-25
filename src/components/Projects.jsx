@@ -20,7 +20,7 @@ const projectVariant = {
   visible: { opacity: 1, scale: 1 },
 };
 
-const Project = ({ title, link, text, image }) => {
+const Project = ({ title, link, text, image, github }) => {
   const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
     bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue`;
   const projectTitle = title.split(" ").join("-").toLowerCase();
@@ -28,15 +28,16 @@ const Project = ({ title, link, text, image }) => {
     <motion.div variants={projectVariant} className="relative">
       <div className={overlayStyles}>
       <a href={link} target="blank">
-        <p className="text-2xl font-playfair">{title}</p>
+        <p className="text-2xl font-playfair font-semibold">{title}</p>
         </a>
         <p className="mt-3">
           {text}
         </p>
+        <a href={github} target="blank">
+        <p className="text-1xl p-3 font-semibold">GitHub</p>
+        </a>
       </div>
-      <a href={link}>
       <img src={image} alt={projectTitle} />
-      </a>
     </motion.div>
   );
 };
@@ -92,12 +93,14 @@ const Projects = () => {
           link="https://stride-1.herokuapp.com/"
           text="MERN Full-Stack"
           image={img}
+          github="https://github.com/Noahbrown26/Stride"
            />
           <Project 
           title="Project Vinyl 2.0.0" 
           link="https://projectvinyl.herokuapp.com/"
           text="Node.JS/Express MySQL"
           image={img1}
+          github="https://github.com/Noahbrown26/ProjectVinyl"
           />
 
           {/* ROW 2 */}
@@ -108,12 +111,14 @@ const Projects = () => {
           link="https://jate-3.herokuapp.com/"
           text="Progressive Web Application" 
           image={img2}
+          github="https://github.com/Noahbrown26/JATE"
           />
           <Project 
           title="Note Taker" 
           link="https://note-taker-express26.herokuapp.com/"
           text="Node.JS Express"
           image={img3}
+          github="https://github.com/Noahbrown26/NoteTakerExpress"
           />
           <div
             className="flex justify-center text-center items-center p-10 bg-blue

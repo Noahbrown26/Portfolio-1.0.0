@@ -47,10 +47,10 @@ function App() {
 
        <LineGradient/>
 
+
        <div className="w-5/6 mx-auto md:h-full">
           <MySkills/>
        </div>
-       <LineGradient/>
        <div className="w-5/6 mx-auto">
           <Projects/>
        </div>

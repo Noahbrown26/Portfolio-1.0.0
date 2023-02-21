@@ -3,6 +3,7 @@ import useMediaQuery from "../hooks/useMediaQuery";
 import { motion } from "framer-motion";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
+import Profile from "../assets/image0.jpeg";
 
 const Landing = ({ setSelectedPage }) => {
   const isAboveLarge = useMediaQuery("(min-width: 1060px)");
@@ -21,14 +22,14 @@ const Landing = ({ setSelectedPage }) => {
             <img
               alt="profile img placeholder"
               className="hover:filter hover:saturate-200 transition duration-500 z-10 w-full max-w-[400px] md:max-w-[600px]"
-              src=""
+              src={Profile}
             />
           </div>
         ) : (
           <img
             alt=""
             className="z-10 w-full max-w-[400px] md:max-w-[600px]"
-            src=""
+            src={Profile}
         />
         )}
       </div>
